@@ -1,7 +1,7 @@
 $(function () {
     $("#header").load("./templates/_header.html");
     $("#footer").load("./templates/_footer.html");
-    $("#main").load("./templates/_home.html");
+    $("#main").load("home.html");
 });
 
 
