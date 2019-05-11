@@ -1,13 +1,13 @@
 $(function () {
-    $("#header").load("templates/_header.html");
-    $("#footer").load("templates/_footer.html");
-    $("#main").load("templates/_home.html");
+    $("#header").load("./templates/_header.html");
+    $("#footer").load("./templates/_footer.html");
+    $("#main").load("./templates/_home.html");
 });
 
 
 
 
-    // りんくを押した時
+// りんくを押した時
 
 function openYield(path) {
     $("#main").load(path + ".html");
