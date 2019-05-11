@@ -1,0 +1,30 @@
+.divitem{
+    font-family: serif;
+    color: #007bff;
+    background-color: white;
+}
+.sectionitem{
+    text-align: center;
+    font-size: 40px;
+}
+.imgitem{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    border-radius: 30px;
+}
+.imgitem:hover{
+    opacity: 0.5;
+}
+p{
+    font-size: 60px;
+    position: absolute;
+    top: 200px;
+    right: 750px;
+    color: white;
+}
+.pitem{
+    position: absolute;
+    top: 800px;
+    right: 750px;
+}

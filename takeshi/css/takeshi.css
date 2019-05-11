@@ -1,10 +1,19 @@
+
 .headitem{
-    background-image: url(https://travelzaurus.com/wp-content/uploads/2017/01/CinqueTerre_eye.jpg);
+    background: url(https://travelzaurus.com/wp-content/uploads/2017/01/CinqueTerre_eye.jpg);
     background-attachment: fixed;
     background-size: cover;
+    width:100%;
     height: 750px;
     position: relative;
 }
+
+/* 
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  } */
 .navitem{
     position: absolute;
     top: 30px;
@@ -85,17 +94,15 @@
     justify-content: center;
     align-items: center;
 }
-.jpdivitem{
-    display: flex;
-    justify-content: space-around;
-}
 .jpimg{
-    width: 100%;
+    width: 95%;
+
+    object-fit: contain;
     height: 400px;
+    
 }
 .slider{
-    width: 650px;
-    height: 400px;
+    width: 100%;
 }
 .slick-prev::before,
 .slick-next::before{
@@ -104,9 +111,7 @@
 .jphead{
     font-size: 30px;
 }
-.jdlitem{
-    width: 50%;
-}
+
 .jdditem{
     font-size: 18px;
 }

@@ -12,10 +12,14 @@ $(".mitem").mouseout(function () {
     $(this).css("color", "white")
 });
 
-// $(".hitem1").mouseover(function(){
+// $(".hitem1").mouseover(function () {
 //     $(this).hide()
 // });
 
-$(".hitem1").mousemove(function(){
-    $(this).html("<h1>Welcome</h1>")
-  });
+// $(".hitem1").mouseover(function () {
+//     $(this).text("~WELCOME!!~")
+// });
+
+// $(".hitem1").mousemove(function(){
+//     $(this).html("<h1>Welcome</h1>")
+//   });
